@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [orange()],
   build: {
     minify: true,
-    assetsDir: "./public",
+    copyPublicDir: true,
   },
 })
