@@ -1,3 +1,3 @@
-import { hydrate } from "@orange-js/orange/client";
+import { hydrate } from '@orange-js/orange/client'
 
-hydrate();
+hydrate()
