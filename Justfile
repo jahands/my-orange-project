@@ -12,3 +12,6 @@ build:
 
 dev:
   bun dev
+
+fix:
+  bun prettier . --write --cache
