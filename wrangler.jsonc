@@ -14,5 +14,8 @@
   // Configuration: https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs
   "observability": {
     "enabled": true
+  },
+  "vars": {
+    "ENVIRONMENT": "production"
   }
 }
