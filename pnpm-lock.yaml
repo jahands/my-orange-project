@@ -40,8 +40,8 @@ importers:
         specifier: 0.0.11
         version: 0.0.11(@react-router/dev@7.1.5(jiti@1.21.7)(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(vite@6.1.0(jiti@1.21.7)(yaml@2.7.0))(wrangler@3.107.3(@cloudflare/workers-types@4.20250204.0))(yaml@2.7.0))(vite@6.1.0(jiti@1.21.7)(yaml@2.7.0))(wrangler@3.107.3(@cloudflare/workers-types@4.20250204.0))
       '@types/react':
-        specifier: 19.0.8
-        version: 19.0.8
+        specifier: 19.0.0
+        version: 19.0.0
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.5.1)
@@ -853,8 +853,8 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
-  '@types/react@19.0.8':
-    resolution: {integrity: sha512-9P/o1IGdfmQxrujGbIMDyYaaCykhLKc0NGCtYcECNUr9UAaDe4gwvV9bR6tvd5Br1SG0j+PBpbKr2UYY8CwqSw==}
+  '@types/react@19.0.0':
+    resolution: {integrity: sha512-MY3oPudxvMYyesqs/kW1Bh8y9VqSmf+tzqw3ae8a9DZW68pUe3zAdHeI1jc6iAysuRdACnVknHP8AhwD4/dxtg==}
 
   '@whatwg-node/fetch@0.9.23':
     resolution: {integrity: sha512-7xlqWel9JsmxahJnYVUj/LLxWcnA93DR4c9xlw3U814jWTiYalryiH1qToik1hOxweKKRLi4haXHM5ycRksPBA==}
@@ -2814,7 +2814,7 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
-  '@types/react@19.0.8':
+  '@types/react@19.0.0':
     dependencies:
       csstype: 3.1.3
 
