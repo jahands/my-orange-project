@@ -1,5 +1,7 @@
 set shell := ["zsh", "-c"]
 
+alias up := update-deps
+
 [private]
 @help:
   just --list
@@ -18,6 +20,9 @@ fix:
   bun syncpack fix-mismatches
   just update-lockfile
   bun prettier . --write --cache
+
+update-deps:
+  bun syncpack update
 
 
 # ========================= #
