@@ -41,6 +41,18 @@ const config = {
 				useTabs: false,
 			},
 		},
+		{
+			files: '*.jsonc',
+			options: {
+				trailingComma: 'none',
+			},
+		},
+		{
+			files: 'Justfile',
+			options: {
+				useTabs: false,
+			},
+		},
 	],
 }
 
