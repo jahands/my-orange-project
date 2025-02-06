@@ -23,7 +23,7 @@ fix:
 
 update-deps:
   bun syncpack update
-
+  just update-lockfile
 
 # ========================= #
 # ======== HELPERS ======== #

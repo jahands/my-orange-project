@@ -14,27 +14,27 @@
 		"preview": "vite build && wrangler dev"
 	},
 	"dependencies": {
-		"@orange-js/orange": "0.0.7",
+		"@orange-js/orange": "0.0.8",
 		"diffable-objects": "0.1.1",
 		"hono": "4.6.20",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
-		"react-router": "7.1.1"
+		"react-router": "7.1.5"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@cloudflare/workers-types": "4.20241230.0",
+		"@cloudflare/workers-types": "4.20250204.0",
 		"@ianvs/prettier-plugin-sort-imports": "4.4.1",
-		"@orange-js/vite": "0.0.9",
-		"@types/react": "19.0.2",
+		"@orange-js/vite": "0.0.11",
+		"@types/react": "19.0.8",
 		"autoprefixer": "10.4.20",
 		"esbuild": "0.24.2",
-		"postcss": "8.4.49",
+		"postcss": "8.5.1",
 		"prettier": "3.4.2",
 		"prettier-plugin-packagejson": "2.5.8",
 		"syncpack": "13.0.2",
-		"tailwindcss": "3.4.17",
-		"vite": "6.0.11",
-		"wrangler": "3.105.0"
+		"tailwindcss": "4.0.4",
+		"vite": "6.1.0",
+		"wrangler": "3.107.3"
 	}
 }
