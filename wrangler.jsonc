@@ -6,6 +6,7 @@
 	"compatibility_date": "2024-12-05",
 	"compatibility_flags": ["nodejs_compat"],
 	"routes": ["orange.uuid.rocks/*"],
+	"preview_urls": true,
 	"workers_dev": false,
 	// Where the static asses built by Vite will be served out of.
 	"assets": {
